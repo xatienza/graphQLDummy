@@ -1,0 +1,2 @@
+# graphQLDummy
+Basic GraphQL project
