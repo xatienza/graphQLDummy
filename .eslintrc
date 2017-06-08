@@ -1,0 +1,10 @@
+{
+    "extends": "airbnb",
+    "rules": {
+         "func-names": "off",
+         "no-underscore-dangle": "off",
+         "no-use-before-define": "off",
+         "no-unused-vars": ["error", { "vars": "all", "args": "none" }],
+         "max-len": ["error", 120],
+    }
+}
