@@ -8,8 +8,9 @@
   "scripts": {
     "build": "babel src -d lib",
     "clean": "rimraf lib/*",
-    "lint": "eslint src",
+    "lint": "eslint --ignore-pattern '/packages/' .",
     "lintfix": "eslint src --fix",
+    "prebuild": "npm run clean",
     "pretest": "npm run lint --silent",
     "start": "nodemon src/index.js --exec babel-node",
     "test": "test"
