@@ -1,0 +1,23 @@
+{
+  "name": "dummy",
+  "version": "1.0.0",
+  "description": "Basic GraphQL project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xatienza/graphQLDummy.git"
+  },
+  "keywords": [
+    "GraphQL",
+    "NodeJS"
+  ],
+  "author": "Xavier Sánchez Atienza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xatienza/graphQLDummy/issues"
+  },
+  "homepage": "https://github.com/xatienza/graphQLDummy#readme"
+}
